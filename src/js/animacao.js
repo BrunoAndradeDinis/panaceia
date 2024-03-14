@@ -1,4 +1,4 @@
-const palavras = ["Literatura","Arte", "Cultura"];
+const palavras = ["Literatura","Arte", "Cultura", "Resistência"];
 const elementoPalavra = document.getElementById("palavra");
 const elementoCursor = document.getElementById("cursor");
 

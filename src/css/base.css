@@ -15,7 +15,6 @@
 }
 body{
   background-color: var(--fundo);
-  height: 600vh;
 }
 body::-webkit-scrollbar{
   /* para tirar a barra de rolagem */

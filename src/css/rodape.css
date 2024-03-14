@@ -1,0 +1,15 @@
+.rodape {
+    background-color: transparent;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+}
+.rodape p, .rodape a {
+    background-color: transparent;
+}
+.rodape a:hover{
+    color: var(--texto-marrom);
+    background-color: transparent;
+}
