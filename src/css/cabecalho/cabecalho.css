@@ -1,0 +1,43 @@
+.cabecalho h1:hover{
+  transform: scale(.9);
+  opacity: .5;
+}
+
+.cabecalho img{
+  height: 3rem;
+}
+
+.cabecalho .navegacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  bottom: 0; /* Alteração aqui */
+  z-index: 9999;
+}
+
+.cabecalho .navegacao ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+.cabecalho .navegacao ul li {
+  height: .8rem;
+  width: .5rem;
+}
+.cabecalho .navegacao ul li a {
+  display: inline-block;
+  line-height: 0;
+  font-weight: 900;
+  position: absolute;
+  z-index: 999;
+}
+
+.cabecalho .navegacao ul li a:hover {
+  color: var(--hana);
+}
+
+.navegacao, nav, ul, li, a{
+  background-color: transparent;
+}

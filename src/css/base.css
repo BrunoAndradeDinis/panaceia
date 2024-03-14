@@ -1,0 +1,23 @@
+*{
+  background-color: var(--fundo);
+  color: var(--texto-preto);
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  transition: .3s ease-in-out;
+  /* tirando a opção de selecionar texto na página */
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  
+  touch-action: pan-y auto;
+  -ms-touch-action: manipulation;
+}
+body{
+  background-color: var(--fundo);
+  height: 600vh;
+}
+body::-webkit-scrollbar{
+  /* para tirar a barra de rolagem */
+  width: 0;
+}
