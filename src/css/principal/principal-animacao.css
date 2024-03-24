@@ -5,6 +5,10 @@
   font-weight: 300;
 }
 
+.agrupamento__animacao{
+ border-radius: 2rem;
+}
+
 .mancha__animacao{
   background-image: url('../../images/Vector\ 4.png');
   background-size: cover;
